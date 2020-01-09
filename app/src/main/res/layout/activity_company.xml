@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:text="Company"
+        android:layout_marginLeft="30sp"
+        android:textColor="#560DEB"
+        android:id="@+id/comp"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:padding="10sp"
+        android:layout_marginRight="20sp"
+        android:src="@drawable/down" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:text="Product1"
+        android:layout_marginLeft="20sp"
+        android:textColor="#0D8AFC"
+        android:id="@+id/t1"
+        android:layout_below="@+id/arrow"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:text="Product2"
+        android:layout_marginLeft="20sp"
+        android:textColor="#0D8AFC"
+        android:id="@+id/t2"
+        android:layout_below="@+id/t1"
+        android:textSize="20sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:text="Product3"
+        android:layout_marginLeft="20sp"
+        android:textColor="#0D8AFC"
+        android:id="@+id/t3"
+        android:layout_below="@+id/t2"
+        android:textSize="20sp" />
+</RelativeLayout>
+</FrameLayout>
